@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="antiquity.xsl"?>
+<!DOCTYPE flowers[
+<!ELEMENT flowers (flower*)>
+<!ELEMENT flowers (flower-id,flower-name,country,code-supplier,code-product,amount,size,markup,price)>
+<!ELEMENT flower-id (#PCDATA)>
+<!ELEMENT flower-name (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT code-supplier (#PCDATA)>
+<!ELEMENT code-product (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT markup (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<flowers>
+	<flower>
+		<flower-id>345-44</flower-id>
+		<flower-name>Тюльпан красный</flower-name>
+		<country>Нидерланды</country>
+		<code-supplier>844</code-supplier>
+		<code-product>071</code-product>
+		<amount>976</amount>
+		<size>35-40 см</size>
+		<markup>200%</markup>
+		<price>150 руб.</price>
+	</flower>
+	<flower>
+		<flower-id>145-14</flower-id>
+		<flower-name>Красная роза</flower-name>
+		<country>Эквадор</country>
+		<code-supplier>755</code-supplier>
+		<code-product>045</code-product>
+		<amount>546</amount>
+		<size>50 см</size>
+		<markup>200%</markup>
+		<price>200 руб.</price>
+	</flower>
+	<flower>
+		<flower-id>021-11</flower-id>
+		<flower-name>Анемоны</flower-name>
+		<country>Эквадор</country>
+		<code-supplier>701</code-supplier>
+		<code-product>012</code-product>
+		<amount>205</amount>
+		<size>45 см</size>
+		<markup>300%</markup>
+		<price>250 руб.</price>
+	</flower>
+</flowers>
